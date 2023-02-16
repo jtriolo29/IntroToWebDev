@@ -28,7 +28,12 @@ var totalArchers = 0;         // number of kids who are actually doing archery i
 // ------------------------
 
 // Write your code here:
-
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
 
 
 // When you're finished, save the changes and open practice/02-if-statements/index.html with your browser. (The html file is is the same subfolder as this file, and it already includes code to reference this file.)
@@ -58,8 +63,99 @@ console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
 console.log("totalSwimmers = %s", totalSwimmers);
 console.log("totalArchers = %s", totalArchers);
 
+// kidsWhoWantToSwim    | 3 | 20 | 45 | 25 | 12
+// kidsWhoWantDoArchery | 2 |  6 |  1 |  5 | 11
+// totalSwimmers        | 0 | 20 |  0 |  0 | 12
+// totalArchers         | 5 |  6 | 46 | 30 | 11
+console.log("Let's Do This Again with 3 and 2");
+kidsWhoWantToSwim = 3;   
+kidsWhoWantDoArchery = 2; 
+totalSwimmers = 0;        
+totalArchers = 0; 
 
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
 
+console.log("kidsWhoWantToSwim = %s", kidsWhoWantToSwim);
+console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
+console.log("totalSwimmers = %s", totalSwimmers);
+console.log("totalArchers = %s", totalArchers);
+
+console.log("Let's Do This Again with 20 and 6");
+kidsWhoWantToSwim = 20;   
+kidsWhoWantDoArchery = 6; 
+totalSwimmers = 0;        
+totalArchers = 0; 
+
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
+
+console.log("kidsWhoWantToSwim = %s", kidsWhoWantToSwim);
+console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
+console.log("totalSwimmers = %s", totalSwimmers);
+console.log("totalArchers = %s", totalArchers);
+
+console.log("Let's Do This Again with 35 and 1");
+kidsWhoWantToSwim = 35;   
+kidsWhoWantDoArchery = 1; 
+totalSwimmers = 0;        
+totalArchers = 0; 
+
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
+
+console.log("kidsWhoWantToSwim = %s", kidsWhoWantToSwim);
+console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
+console.log("totalSwimmers = %s", totalSwimmers);
+console.log("totalArchers = %s", totalArchers);
+
+console.log("Let's Do This Again with 25 and 5");
+kidsWhoWantToSwim = 25;   
+kidsWhoWantDoArchery = 5; 
+totalSwimmers = 0;        
+totalArchers = 0; 
+
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
+
+console.log("kidsWhoWantToSwim = %s", kidsWhoWantToSwim);
+console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
+console.log("totalSwimmers = %s", totalSwimmers);
+console.log("totalArchers = %s", totalArchers);
+
+console.log("Let's Do This Again with 12 and 11");
+kidsWhoWantToSwim = 12;   
+kidsWhoWantDoArchery = 11; 
+totalSwimmers = 0;        
+totalArchers = 0; 
+
+if (kidsWhoWantToSwim % 2 === 0) {
+    totalSwimmers = kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+  } else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+  }
+
+console.log("kidsWhoWantToSwim = %s", kidsWhoWantToSwim);
+console.log("kidsWhoWantDoArchery = %s", kidsWhoWantDoArchery);
+console.log("totalSwimmers = %s", totalSwimmers);
+console.log("totalArchers = %s", totalArchers);
 
 
 
