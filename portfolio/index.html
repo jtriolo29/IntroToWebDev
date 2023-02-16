@@ -8,11 +8,38 @@ Most recent revision: 2/15/2023
 <html lang="en">
   <head>
     <title>Jenna Triolo's Portfolio</title>
-    <link href="styles/teststyles.css" rel="stylesheet" type="text/css">
+    <!-- <link href="styles/teststyles.css" rel="stylesheet" type="text/css"> -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
     <style>
-      header {
-        background-color: darkgray;
-      }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        } 
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        } 
+
+        tbody tr:nth-child(odd) {
+            background-color: #e4c3ad; 
+        }   
     </style>	
   </head>
   <body>
@@ -22,12 +49,12 @@ Most recent revision: 2/15/2023
       </header>        
 
       <nav>
-        <hr>
+        <!-- <hr> -->
           <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
           <p><a href="projects.html">Projects</a></p>
           <p><a href="contact.html">Contact Me</a></p>
           <p><a href="testimonials.html">Testimonials</a></p>
-        <hr>    
+        <!-- <hr> -->    
       </nav>
 
       <section>  <!-- The section element contains the three chunks we are using to sell ourselves in this page. -->
@@ -107,8 +134,9 @@ Most recent revision: 2/15/2023
         </article>
       </section>
 
-      <footer style="background-color: fuchsia">  <!-- The footer is a block at the bottom of the page. -->
-        <hr>
+      <!-- <footer style="background-color: fuchsia"> -->  <!-- The footer is a block at the bottom of the page. -->
+      <footer>  
+        <!-- <hr> -->
         <p>&copy; 2023 Jenna Triolo. All rights reserved.</p>
       </footer>
     </main>	
