@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple onload Example with Function</title>
+</head>
+<body onload="greetTheUser();">
+    <div>
+        <h1>Hi, <span id="userName"></code>!</h1>
+    </div>
+    <script type="text/javascript">
+        function greetTheUser() {
+            var userName = prompt("What is your name?");
+            document.getElementById("userName").innerText = userName;
+        }
+    </script>
+</body>
+</html>
