@@ -22,6 +22,10 @@ for (var n = 1; n <= 7; n++) {
 console.log("FOR ONE TO TEN");
 // Write your code here:
 
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
 
 
 // 2. COUNT BY TWOS FROM TWO TO TWELVE
@@ -39,7 +43,9 @@ console.log("FOR ONE TO TEN");
 // 12
 console.log("COUNT BY TWOS FROM TWO TO TWELVE");
 // Write your code here:
-
+for(let i = 2; i <= 12; i += 2){
+    console.log(i);
+}
 
 
 // 3. COUNT BACKWARD FROM SIX
@@ -58,7 +64,9 @@ console.log("COUNT BY TWOS FROM TWO TO TWELVE");
 // 0
 console.log("COUNT BACKWARD FROM SIX");
 // Write your code here:
-
+for (let i = 6; i >= 0; i--){
+    console.log(i);
+}
 
 
 // 4. SUM EVENS
@@ -77,8 +85,41 @@ var sum = 0;    // We add even numbers to this variable.
 // What happens if you set limit to a negative number?
 console.log("SUM EVENS");
 // Write your code here:
+for (let i = 0; i <= limit; i++){
+    if (i % 2 === 0){
+        sum += i;
+    }
+}
 
 console.log("limit = %s, sum = %s", limit, sum);
+
+
+limit = 4; 
+sum = 0;    
+
+console.log("SUM EVENS");
+// Write your code here:
+for (let i = 0; i <= limit; i++){
+    if (i % 2 === 0){
+        sum += i;
+    }
+}
+
+console.log("limit = %s, sum = %s", limit, sum);
+
+limit = 8; 
+sum = 0;    
+
+console.log("SUM EVENS");
+// Write your code here:
+for (let i = 0; i <= limit; i++){
+    if (i % 2 === 0){
+        sum += i;
+    }
+}
+
+console.log("limit = %s, sum = %s", limit, sum);
+
 
 // 5. FIND A FAVORITE NUMBER
 // =========================
@@ -96,13 +137,102 @@ console.log("FIND A FAVORITE NUMBER");
 // Write your code here:
 
 
+for (var i = 1; i <= winniesFavoriteNumber && i <= kaisFavoriteNumber; i++) {
+    if (i === winniesFavoriteNumber || i === kaisFavoriteNumber) {
+        console.log(i);       
+    }   
+  }
+  
+  
+
 
 // CHALLENGE: WHILE LOOPS
 // ======================
 // Try solving the five tasks above with a while loop in place of a for loop.
 
 
+console.log("WHILE LOOP ONE TO SEVEN");
+var i = 1;
+while (i <= 7) {
+    console.log(i);
+    i++;
+}
 
+
+console.log("WHILE LOOP ONE TO TEN");
+var i = 1;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+
+console.log("WHILE LOOP COUNT BY TWOS FROM TWO TO TWELVE");
+var i = 2;
+while (i <= 12) {
+    console.log(i);
+    i += 2;
+}
+
+console.log("COUNT BACKWARD FROM SIX WHILE LOOP");
+var i = 6;
+while (i >= 0) {
+    console.log(i);
+    i--;
+}
+
+   
+
+console.log("SUM EVENS WHILE LOOP");
+var limit = 10; 
+var sum = 0; 
+var i = 0;
+while (i <= limit) {
+    if (i % 2 === 0) {
+      sum += i;
+    }
+    i++;
+}
+
+console.log("limit = %s, sum = %s", limit, sum);
+
+console.log("SUM EVENS WHILE LOOP");
+var limit = 4; 
+var sum = 0; 
+var i = 0;
+while (i <= limit) {
+    if (i % 2 === 0) {
+      sum += i;
+    }
+    i++;
+}
+
+console.log("limit = %s, sum = %s", limit, sum);
+
+console.log("SUM EVENS WHILE LOOP");
+var limit = 8; 
+var sum = 0; 
+var i = 0;
+while (i <= limit) {
+    if (i % 2 === 0) {
+      sum += i;
+    }
+    i++;
+}
+
+console.log("limit = %s, sum = %s", limit, sum);
+
+
+ 
+
+console.log("FIND A FAVORITE NUMBER WHILE LOOP");
+var winniesFavoriteNumber = 53;
+var kaisFavoriteNumber = 44;  
+var i = 0;
+
+while (i !== winniesFavoriteNumber && i !== kaisFavoriteNumber) {
+  i++;
+}
+console.log(i);
 
 
 
